@@ -38,14 +38,6 @@ export const Projectsection = () => {
                       <FaGithub />
                       <span>Jetter un coup d'oeil ?</span>
                     </a>
-                    <a
-                      href={project.href}
-                      download={project.download}
-                      rel="noopener noreferrer"
-                    >
-                      <FaDownload />
-                      <span>Télecharger le projet</span>
-                    </a>
                   </div>
                 </Projectdescr>
               </Singleproj>
